@@ -1,0 +1,36 @@
+/* Siga as orientações no arquivo README para concluir o exercício */
+
+.container { 
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #228B22; /*Aplique um fundo verde à div pai (ou seja, a div com a classe "container") que engloba todos os elementos.*/
+    color: #a52a2a; /*Aplique uma cor aos textos dentro da classe "container", utilizando a propriedade color com o valor desejado.*/
+}
+
+.cabecalho{
+    background-color: #98FB98; /*Aplique no fundo alguma cor em hexadecimal para todos os itens dentro da div com a classe "cabecalho" e alinhe os textos ao centro. Verifique se todos os textos dentro da div com a classe "cabecalho" estão devidamente centralizados.*/
+    text-align: center;
+}
+.tituloPrincipal { /*Note que o título e o subtítulo dentro da div com a classe "cabecalho" estão do mesmo tamanho. Crie uma classe específica para o título principal, altere a cor para alguma de sua preferência, aplique bold e defina o tamanho para 32px.*/
+    color: #a52a2a;
+    font-weight: bold;
+    font-size: 32px;
+}
+.subtitulo { /*Crie uma classe para o subtítulo do cabeçalho e ajuste a cor conforme preferir.*/
+    color: #a52a2a;
+}
+.conteudo {     
+background-color: #98FB98; /*Altere o fundo da div "conteudo" para uma cor conforme preferir.*/
+    color: #000000; /*Modifique a cor dos textos dentro da div com a classe "conteudo" para alguma cor de sua preferência, aplicando a cor diretamente na classe "conteudo".*/
+}
+.conteudo p{
+    color: #E4005A;
+    font-size: 42px;
+}
+#paragrafo{ /*Altere o CSS de forma que apenas o terceiro parágrafo filho de div "conteudo" tenha a cor roxa e subscrito.*/
+    color: purple;
+    font-size: 0.8em;
+    vertical-align: sub;
+}
+
+/*infelizmente não consegui realizar o desafio plus2*/
